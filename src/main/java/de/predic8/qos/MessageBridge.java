@@ -28,7 +28,8 @@ public class MessageBridge {
             producer.send(verarbeitet, bestellung);
             System.out.println("gesendet");
 
-            ctx.commit();
+            ctx.rollback();
+            break;
          }
       }
    }

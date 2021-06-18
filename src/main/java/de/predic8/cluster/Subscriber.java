@@ -13,13 +13,15 @@ public class Subscriber {
 
         InitialContext ic = new InitialContext();
         ConnectionFactory cf = (ConnectionFactory) ic.lookup("ConnectionFactory");
-
-        Queue queue = (Queue) ic.lookup("bestellungen");
+        
 
         Connection con = cf.createConnection();
         ((ActiveMQConnection) con).setFailoverListener(new FailoverListener());
 
         Session sess = con.createSession(true, CLIENT_ACKNOWLEDGE);
+        Queue queue = sess.createQueue("bestellungen");
+        
+        //Queue queue = (Queue) ic.lookup("bestellungen");
 
         MessageConsumer consumer = sess.createConsumer(queue);
 

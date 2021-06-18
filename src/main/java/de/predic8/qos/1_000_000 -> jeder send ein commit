@@ -1,0 +1,13 @@
+1_000_000 -> jeder send ein commit
+???
+
+
+1_000_000 -> kein commit
+Done after: 17.0 s.
+58823.58823529412 Nachrichten pro Sek.
+Fertig.
+
+1_000_000
+Done after: 19.0 s.
+52631.63157894737 Nachrichten pro Sek.
+Fertig.

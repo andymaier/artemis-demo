@@ -15,7 +15,7 @@ public class Producer {
         try(JMSContext ctx = cf.createContext()) {
 
             Queue queue = ctx.createQueue("bestellungen");
-            JMSProducer producer = ctx.createProducer().setDeliveryMode(DeliveryMode.NON_PERSISTENT);
+            JMSProducer producer = ctx.createProducer().setDeliveryMode(DeliveryMode.PERSISTENT);
 
             long t1 = System.currentTimeMillis();
 

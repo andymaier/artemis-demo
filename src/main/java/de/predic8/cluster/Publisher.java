@@ -14,13 +14,13 @@ public class Publisher {
         InitialContext ic = new InitialContext();
         ConnectionFactory cf = (ConnectionFactory)ic.lookup("ConnectionFactory");
 
-        Queue orderQueue = (Queue)ic.lookup("bestellungen");
+        //Queue orderQueue = (Queue)ic.lookup("bestellungen");
 
         Connection con = cf.createConnection();
         ((ActiveMQConnection) con).setFailoverListener(new FailoverListener());
 
         Session session = con.createSession(true, CLIENT_ACKNOWLEDGE);
-
+        Queue orderQueue = session.createQueue("bestellungen");
         MessageProducer producer = session.createProducer(orderQueue);
 
         con.start();

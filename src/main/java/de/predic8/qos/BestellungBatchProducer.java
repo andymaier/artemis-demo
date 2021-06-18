@@ -28,8 +28,8 @@ public class BestellungBatchProducer {
                     System.out.println(i);
                 }
             }
-            ctx.commit();
-            */
+            ctx.commit();*/
+            
             
             while(true){
                 i++;
@@ -38,10 +38,10 @@ public class BestellungBatchProducer {
                     ctx.commit();
                     System.out.println(i);
                 }
-            }  
+            } 
             
-            /*
-            double dauer = (currentTimeMillis() - t1) / 1000;
+            
+            /*double dauer = (currentTimeMillis() - t1) / 1000;
 
             System.out.println("Done after: " + dauer + " s.");
             System.out.println(i / dauer + " Nachrichten pro Sek.");
