@@ -1,0 +1,192 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AsyncProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.asyncsend.AsyncProducer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Publisher",
+            "request": "launch",
+            "mainClass": "de.predic8.cluster.Publisher",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subscriber",
+            "request": "launch",
+            "mainClass": "de.predic8.cluster.Subscriber",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoCloseableConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.core.AutoCloseableConsumer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoCloseableProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.core.AutoCloseableProducer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Producer",
+            "request": "launch",
+            "mainClass": "de.predic8.core.Producer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Producer(1)",
+            "request": "launch",
+            "mainClass": "de.predic8.grouping.Producer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch NotificationConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.internal.NotificationConsumer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch JMS1Producer",
+            "request": "launch",
+            "mainClass": "de.predic8.jms1.JMS1Producer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch MetaData",
+            "request": "launch",
+            "mainClass": "de.predic8.jms2.MetaData",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProducerAutoCloseableArtemis",
+            "request": "launch",
+            "mainClass": "de.predic8.jms2.ProducerAutoCloseableArtemis",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch ByteMessageSender",
+            "request": "launch",
+            "mainClass": "de.predic8.misc.ByteMessageSender",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Producer(2)",
+            "request": "launch",
+            "mainClass": "de.predic8.performance.Producer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestellungBatchProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.qos.BestellungBatchProducer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestellungProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.qos.BestellungProducer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch MessageBridge",
+            "request": "launch",
+            "mainClass": "de.predic8.qos.MessageBridge",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch PizzaBesteller",
+            "request": "launch",
+            "mainClass": "de.predic8.qos.PizzaBesteller",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch PizzaService",
+            "request": "launch",
+            "mainClass": "de.predic8.qos.PizzaService",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumer",
+            "request": "launch",
+            "mainClass": "de.predic8.simple.Consumer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Producer(3)",
+            "request": "launch",
+            "mainClass": "de.predic8.simple.Producer",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreisAnzeige-0",
+            "request": "launch",
+            "mainClass": "de.predic8.tanke.PreisAnzeige",
+            "projectName": "artemis-demos",
+            "args": "0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreisAnzeige-1",
+            "request": "launch",
+            "mainClass": "de.predic8.tanke.PreisAnzeige",
+            "projectName": "artemis-demos",
+            "args": "1"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreisAnzeige-2",
+            "request": "launch",
+            "mainClass": "de.predic8.tanke.PreisAnzeige",
+            "projectName": "artemis-demos",
+            "args": "2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreisSender",
+            "request": "launch",
+            "mainClass": "de.predic8.tanke.PreisSender",
+            "projectName": "artemis-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListTransactions",
+            "request": "launch",
+            "mainClass": "de.predic8.transactions.ListTransactions",
+            "projectName": "artemis-demos"
+        }
+    ]
+}

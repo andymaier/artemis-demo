@@ -1,0 +1,12 @@
+
+Pesistent:
+Done after: 1.392 s.
+718.3908045977012 Nachrichten pro Sek.
+
+
+Non Persistent
+Done after: 0.132 s.
+7575.757575757575 Nachrichten pro Sek.
+
+Done after: 7.112 s.
+140607.424071991 Nachrichten pro Sek.
